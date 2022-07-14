@@ -1,12 +1,4 @@
-import {
-  Box,
-  Container,
-  Heading,
-  SimpleGrid,
-  Text,
-  VStack,
-} from '@chakra-ui/react'
-import Image from 'next/image'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import { SkillGridItem } from '../components/grid-item'
 import Layout from '../components/layout/article'
 import Section from '../components/section'
