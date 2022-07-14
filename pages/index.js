@@ -4,25 +4,18 @@ import {
   Heading,
   Image,
   Link,
-  SimpleGrid,
   useColorModeValue,
   Button,
   List,
   ListItem,
 } from '@chakra-ui/react'
-import { GridItem } from '../components/gird-item'
 import Section from '../components/section'
 import Layout from '../components/layout/article'
 import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import {
-  IoLogoTwitter,
-  IoLogoInstagram,
-  IoLogoGithub,
-  IoLogoDiscord,
-} from 'react-icons/io5'
+import { IoLogoGithub, IoLogoGoogle, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -35,7 +28,7 @@ const Page = () => {
           m={6}
           align="center"
         >
-          Hello, I&apos;m a full-stack developer based in Thailand!
+          Hello, Welcome to my Portfolio!
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -43,7 +36,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Thanasak Limsila
             </Heading>
-            <p>Digital Craftzman ( Artist / Developer / Designer )</p>
+            <p>Full Stack Developer</p>
           </Box>
           <Box
             flexShrink={0}
@@ -66,17 +59,13 @@ const Page = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            About me
           </Heading>
           <Paragraph>
-            I'm a developer with a passion for building web application focused
-            on beautiful and professional design while writing clean code. I
-            love problem solving and learning new things. Currently, he is
-            living off of his own product called{' '}
-            <NextLink href="/works/inkdrop">
-              <Link>Inkdrop</Link>
-            </NextLink>
-            .
+            I'm a developer based in Thailand with a passion for building web
+            application focused on beautiful and professional design while
+            writing clean code. I love problem solving and learning new things
+            to improve my skills.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -96,45 +85,64 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Completed the Diploma of Vocational Education in Information and
-            Communication Technology from Chumphon Technical College
+            Completed the Diploma of Vocational Education in{' '}
+            <Link>Information and Communication Technology</Link> from Chumphon
+            Technical College
           </BioSection>
           <BioSection>
             <BioYear>2022 to present</BioYear>
-            Study on Bachelor degree in Computer Engineering
+            Currnetly studying in Bachelor degree of{' '}
+            <Link>Computer Engineering</Link> at KMIT university in Bangkok
           </BioSection>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            Interested
+            I ♥
           </Heading>
-          <Paragraph>UX/UI Design, React.js, Machine Learning</Paragraph>
+          <Paragraph>Reading books, Music, and Playing video game</Paragraph>
         </Section>
 
         <Section delay={0.4}>
           <Heading as="h3" variant="section-title">
-            On the web
+            Socials
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/craftzdog" target="_blank">
+              <Link href="https://github.com/Dope21" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
                   leftIcon={<IoLogoGithub />}
                 >
-                  @craftzdog
+                  @Dope21
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://github.com/craftzdog" target="_blank">
+              <Link
+                href="linkedin.com/in/thanasak-limsila-99a814225"
+                target="_blank"
+              >
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<IoLogoGithub />}
+                  leftIcon={<IoLogoLinkedin />}
                 >
-                  @craftzdog
+                  @Thanasak Limsila
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=thanasaklimsila%40gmail.com&authuser=0"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoGoogle />}
+                >
+                  thanasaklimsila@gmail.com
                 </Button>
               </Link>
             </ListItem>
