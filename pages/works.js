@@ -3,30 +3,75 @@ import Layout from '../components/layout/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import thumbWeather from '../public/images/works/weather_eyecatching.png'
+import thumbTodo from '../public/images/works/todo_eyecatching.png'
+import thumbEcom from '../public/images/works/ecom_eyecatching.png'
+import thumbPos from '../public/images/works/pos_eyecatching.png'
+import thumbCreative from '../public/images/works/creative_eyecatching.png'
+import thumbCloud from '../public/images/works/cloud_eyecatching.png'
 
 const Works = () => (
   <Layout>
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+        Web Application
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem
+            id="weather"
+            title="Weather App"
+            thumbnail={thumbWeather}
+          >
+            A weather report app from OpenWeatherMap API
           </WorkGridItem>
         </Section>
         <Section>
+          <WorkGridItem id="todo" title="Todo App" thumbnail={thumbTodo}>
+            A react todo app with authentication supported by node.js
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
           <WorkGridItem
-            id="walknote"
-            title="Walknote"
-            thumbnail={thumbWalknote}
+            id="e-commerce"
+            title="Restaurant Website"
+            thumbnail={thumbEcom}
           >
-            Music recommendation app for iOS
+            An E-commerce website for a restaurant
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="pos"
+            title="Restaurant Management"
+            thumbnail={thumbPos}
+          >
+            A POS dashboard application for a restaurant
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <Section delay={0.2}>
+        <Divider my={6} />
+        <Heading as="h3" fontSize={20} mb={4}>
+          Responsive Website
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="creative"
+            title="Creative Agency"
+            thumbnail={thumbCreative}
+          >
+            Bootstrap responsive landing page with Semantic HTML
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="cloud" title="Cloud" thumbnail={thumbCloud}>
+            A react responsive website using Tailwind.css
           </WorkGridItem>
         </Section>
       </SimpleGrid>
