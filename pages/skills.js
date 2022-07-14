@@ -7,7 +7,7 @@ import {
   VStack,
 } from '@chakra-ui/react'
 import Image from 'next/image'
-import { SkillGridItem } from '../components/gird-item'
+import { SkillGridItem } from '../components/grid-item'
 import Layout from '../components/layout/article'
 import Section from '../components/section'
 
