@@ -13,7 +13,7 @@ const Work = () => {
         </Title>
         <P>
           A React Todo application, allow user to create and delete task. This
-          project also support Dark/Light theme and Authentication API.
+          project also support Dark/Light theme and user authentication.
         </P>
         <List ml={4} my={4}>
           <ListItem>
