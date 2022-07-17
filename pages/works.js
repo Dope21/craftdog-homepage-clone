@@ -29,7 +29,7 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem id="todo" title="Todo App" thumbnail={thumbTodo}>
-            A react todo app with authentication supported by node.js
+            A react todo app with user authentication supported by node.js
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
