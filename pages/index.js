@@ -62,8 +62,8 @@ const Page = () => {
             About me
           </Heading>
           <Paragraph>
-            I'm a developer based in Thailand with a passion for building web
-            application focused on beautiful and professional design while
+            I'm a web developer based in Thailand with a passion for building
+            web application focused on beautiful and professional design while
             writing clean code. I love problem solving and learning new things
             to improve my skills.
           </Paragraph>
