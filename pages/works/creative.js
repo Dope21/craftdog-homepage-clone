@@ -19,13 +19,20 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Live</Meta>
-            <Link href="https://thanasak-demo-creative-agency.netlify.app/">
+            <Link
+              href="https://thanasak-demo-creative-agency.netlify.app/"
+              target="_blank"
+            >
               https://thanasak-demo-creative-agency.netlify.app/
+              <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/Dope21/bootstarp-creative-agency">
+            <Link
+              href="https://github.com/Dope21/bootstarp-creative-agency"
+              target="_blank"
+            >
               https://github.com/Dope21/bootstarp-creative-agency
               <ExternalLinkIcon mx="2px" />
             </Link>

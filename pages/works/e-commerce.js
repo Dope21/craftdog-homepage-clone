@@ -26,7 +26,10 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/Dope21/restaurant-management">
+            <Link
+              href="https://github.com/Dope21/restaurant-management"
+              target="_blank"
+            >
               https://github.com/Dope21/restaurant-management
               <ExternalLinkIcon mx="2px" />
             </Link>

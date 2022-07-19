@@ -19,13 +19,19 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Live</Meta>
-            <Link href="https://thanasak-demo-cloud.netlify.app/">
+            <Link
+              href="https://thanasak-demo-cloud.netlify.app/"
+              target="_blank"
+            >
               https://thanasak-demo-cloud.netlify.app/
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/Dope21/react-website-cloud">
+            <Link
+              href="https://github.com/Dope21/react-website-cloud"
+              target="_blank"
+            >
               https://github.com/Dope21/react-website-cloud
               <ExternalLinkIcon mx="2px" />
             </Link>

@@ -22,14 +22,17 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Live</Meta>
-            <Link href="https://tnk-todo-app.netlify.app/">
+            <Link href="https://tnk-todo-app.netlify.app/" target="_blank">
               https://tnk-todo-app.netlify.app/
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/Dope21/react-todo-app">
+            <Link
+              href="https://github.com/Dope21/react-todo-app"
+              target="_blank"
+            >
               https://github.com/Dope21/react-todo-app
               <ExternalLinkIcon mx="2px" />
             </Link>

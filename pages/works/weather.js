@@ -22,14 +22,20 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Live</Meta>
-            <Link href="https://weather-app-three-theta.vercel.app/">
+            <Link
+              href="https://weather-app-three-theta.vercel.app/"
+              target="_blank"
+            >
               https://weather-app-three-theta.vercel.app/{' '}
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/Dope21/next-weather-app">
+            <Link
+              href="https://github.com/Dope21/next-weather-app"
+              target="_blank"
+            >
               https://github.com/Dope21/next-weather-app{' '}
               <ExternalLinkIcon mx="2px" />
             </Link>
