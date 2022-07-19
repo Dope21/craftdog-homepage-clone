@@ -92,7 +92,7 @@ const Page = () => {
           <BioSection>
             <BioYear>2022 to present</BioYear>
             Currnetly studying in Bachelor degree of{' '}
-            <Link>Computer Engineering</Link> at KMIT university in Bangkok
+            <Link>Computer Engineering</Link> at KMITL university in Bangkok
           </BioSection>
         </Section>
         <Section delay={0.3}>
