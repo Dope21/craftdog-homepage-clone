@@ -41,9 +41,9 @@ const Skills = () => {
             <SkillGridItem icon={'/images/skills/framer.png'}>
               Framer Motion
             </SkillGridItem>
-            <SkillGridItem icon={'/images/skills/three.png'}>
+            {/* <SkillGridItem icon={'/images/skills/three.png'}>
               Three.js
-            </SkillGridItem>
+            </SkillGridItem> */}
           </SimpleGrid>
         </Section>
         <Section delay={0.2}>
